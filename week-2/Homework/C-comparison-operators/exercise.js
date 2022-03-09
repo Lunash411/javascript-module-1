@@ -5,16 +5,17 @@
   The variables should have values that match the expected results.
 */
 
+
 var studentCount = 16;
 var mentorCount = 9;
-var moreStudentsThanMentors; // finish this statement
-
+var moreStudentsThanMentors = Boolean(studentCount>mentorCount); // finish this statement true
+var total = studentCount + mentorCount
 var roomMaxCapacity = 25;
-var enoughSpaceInRoom; // finish this statement
+var enoughSpaceInRoom = (roomMaxCapacity >= total); // finish this statement true
 
 var personA = "Daniel";
 var personB = "Irina";
-var sameName; // finish this statement
+var sameName = Boolean( personA == personB); // finish this statement false
 
 /* 
   DO NOT EDIT BELOW THIS LINE
