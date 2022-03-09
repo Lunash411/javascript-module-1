@@ -1,3 +1,4 @@
-const name = " Daniel  ";
+const firstName = "Kwofie";
+var nameLength = firstName.length;
 
-console.log(message);
+console.log(`My name is ${firstName} and my name is ${nameLength}` );
